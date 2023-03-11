@@ -1,1 +1,61 @@
-<p>main-home works!</p>
+<header>
+    <div class="container">
+      <h1>
+        <button>Ewha Career Up</button>
+      </h1>
+     <nav>
+      <ul>
+        <li><a routerLink="/main-home-before-component" routerLinkActive="active" 
+          ariaCurrentWhenActive="page">Sign-Out</a>
+        </li>
+      </ul>
+    </nav>
+    </div>
+</header>
+<!--사이드바-->
+  <div id="sidebar">
+    <div class="myInfo">
+      <div class="tit">
+        <span></span>
+      </div>
+      <div class="userProfile">
+        <div class="profile-user-img">
+          <span>
+            <img src="src/images/profile1.png" class="profile-user-img-img">
+          </span>
+        </div>
+        <a routerLink="/mypage-component" routerLinkActive="active" 
+            ariaCurrentWhenActive="page">마이 페이지</a>
+      </div>
+      <div class="btnMy">
+        <a href="#;" onclick="menuGo('', '', '', '', '홈', '', '/user/mypage/index.do', 'N', '', '')" class="btnPort">MY PAGE</a>
+        <a href="#;" onclick="menuGo('', '', '', '', '홈', '', '/user/mypage/index.do', 'N', '', '')" class="btnPort">BUTTON</a>
+      </div>
+    </div>
+    <div id="side_menu">
+      <ul>
+        <li><a class="menu" href="#">커뮤니티 게시판</a></li>
+        <li><a href="#">스터디 모집 게시판</a></li>
+        <li><a href="#">자료 공구 게시판</a></li>
+        <li><a href="#">고민 상담 게시판</a></li>
+        <li><a class="menu" href="#">내 활동 관리하기</a></li>
+        <li><a href="#">내가 쓴 글 모아보기</a></li>
+        <li><a href="#">내가 쓴 댓글 모아보기</a></li>
+        <li><a href="#">내가 좋아요한 글 보기</a></li>
+      </ul>
+    </div>
+  </div>
+<!--main-->
+<main id="main">
+    <div id="div_banner">배너</div>
+    <div id="div_menu">
+      <div class="div_exam">고시</div>
+    </div>  
+    <div id="div_menu">
+      <div class="div_job">진학</div>
+    </div> 
+    <div id="div_menu">
+      <div class="div_degree">취업</div>
+    </div>  
+  </main>
+  <!--end main-->
