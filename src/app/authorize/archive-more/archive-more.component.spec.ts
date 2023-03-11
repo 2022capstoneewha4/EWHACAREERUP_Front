@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { MemberJoinComponent } from './member-join.component';
+import { ArchiveMoreComponent } from './archive-more.component';
 
-describe('MemberJoinComponent', () => {
-  let component: MemberJoinComponent;
-  let fixture: ComponentFixture<MemberJoinComponent>;
+describe('ArchiveMoreComponent', () => {
+  let component: ArchiveMoreComponent;
+  let fixture: ComponentFixture<ArchiveMoreComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ MemberJoinComponent ]
+      declarations: [ ArchiveMoreComponent ]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(MemberJoinComponent);
+    fixture = TestBed.createComponent(ArchiveMoreComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
